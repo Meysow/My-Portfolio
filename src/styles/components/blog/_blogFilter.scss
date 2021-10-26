@@ -1,0 +1,19 @@
+.articleFilter {
+  margin-top: 3.21rem;
+  margin-bottom: -1.43rem;
+
+  .articleFilterContainer {
+    @include cardsTemplate;
+
+    span {
+      font-weight: 500;
+      font-size: 1.29rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1131px) {
+  .articleFilter {
+    margin-top: 0;
+  }
+}

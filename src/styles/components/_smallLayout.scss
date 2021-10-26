@@ -1,0 +1,26 @@
+.smallLayoutContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5.07rem 2rem;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+    .column1 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 39.7%;
+    }
+
+    .column2 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 56.5%;
+    }
+  }
+}

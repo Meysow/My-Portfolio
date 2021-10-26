@@ -1,0 +1,68 @@
+.projectFilter {
+  margin-top: 3.21rem;
+  margin-bottom: -1.43rem;
+
+  .projectFilterContainer {
+    @include cardsTemplate;
+
+    .projectNumber {
+      font-weight: 500;
+      font-size: 1.29rem;
+    }
+
+    .tagFilter {
+      display: flex;
+      flex-wrap: wrap;
+
+      .filterBtn {
+        margin: 1.71rem 0 0.71rem;
+        input[type="radio"] {
+          appearance: none;
+        }
+
+        input:checked + label {
+          color: $white;
+          background-color: $blue;
+          border: solid 1px $blue;
+        }
+
+        label {
+          transition: all 0.4s;
+          -webkit-transition: all 0.4s;
+          -moz-transition: all 0.4s;
+          -ms-transition: all 0.4s;
+          -o-transition: all 0.4s;
+          cursor: pointer;
+          z-index: 90;
+          padding: 0.57rem 1.57rem;
+          margin-right: 1.14rem;
+          color: #4f4f4f;
+          border: solid 1px #4f4f4f;
+          border-radius: $borderRadius;
+          -webkit-border-radius: $borderRadius;
+          -moz-border-radius: $borderRadius;
+          -ms-border-radius: $borderRadius;
+          -o-border-radius: $borderRadius;
+
+          &:hover {
+            color: $white;
+            background-color: $blue;
+            border: solid 1px $blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1131px) {
+  .projectFilter {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .projectFilter {
+    margin-top: 2.71rem;
+  }
+}

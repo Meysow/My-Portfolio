@@ -1,0 +1,110 @@
+/* HEADER */
+
+.header {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: $color-1;
+  align-self: flex-start;
+}
+
+.header h2 {
+  font-size: 24px;
+}
+
+.notFound {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 1.7rem;
+
+  .notFoundWrapper {
+    padding: 1.57rem;
+    max-width: 27rem;
+    width: 50%;
+    background: rgba($white, 0.168);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: $shadow;
+    border-radius: $borderRadius;
+    -webkit-border-radius: $borderRadius;
+    -moz-border-radius: $borderRadius;
+    -ms-border-radius: $borderRadius;
+    -o-border-radius: $borderRadius;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.content .title {
+  font-family: "Space Mono", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 51px;
+  letter-spacing: -0.035em;
+  color: $color-1;
+  margin-right: -1.4rem;
+  word-wrap: break-word;
+  padding-right: 1.57rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  max-width: 330px;
+}
+
+.content .text {
+  font-family: "Space Mono", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: $color-2;
+  padding: 2.14rem 0 4.71rem 0;
+  max-width: 381px;
+}
+
+/* Button */
+.btnNavNotFound a {
+  font-family: $font-1;
+  font-weight: 600;
+  font-size: 1.21rem;
+  line-height: 1.42rem;
+  padding: 1rem 1.71rem;
+  color: $white;
+  background-color: $blue;
+  border: solid 1px transparent;
+  border-radius: $borderRadius;
+  -webkit-border-radius: $borderRadius;
+  -moz-border-radius: $borderRadius;
+  -ms-border-radius: $borderRadius;
+  -o-border-radius: $borderRadius;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+
+  &:hover {
+    color: $blue;
+    background: rgba($white, 0.5);
+    border: solid 1px $blue;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .notFound {
+    .notFoundWrapper {
+      min-width: 19rem;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+/* RESET */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+$font-1: "Montserrat", sans-serif;
+
+$color-1: #333;
+$color-2: #4f4f4f;
+$color-3: #828282;
+$color-4: #e0e0e0;
+$blue: #2f80ed;
+$white: #fff;
+$black: #000;
+
+$borderRadius: 1rem;
+$shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+
+@mixin cardsTemplate {
+  background-color: #fff;
+  padding: 1.57rem;
+  border-radius: $borderRadius;
+  -webkit-border-radius: $borderRadius;
+  -moz-border-radius: $borderRadius;
+  -ms-border-radius: $borderRadius;
+  -o-border-radius: $borderRadius;
+  box-shadow: $shadow;
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-1;
+  color: $color-2;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
