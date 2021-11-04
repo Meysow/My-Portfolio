@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.f8ceafe6.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.e7ef2c35.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.e7ef2c35.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.23efc48d.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.c93a39ac.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.c93a39ac.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.45f5b5da.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.45f5b5da.js.map",
-    "static/js/2.72665ae0.chunk.js": "/My-Portfolio/static/js/2.72665ae0.chunk.js",
-    "static/js/2.72665ae0.chunk.js.map": "/My-Portfolio/static/js/2.72665ae0.chunk.js.map",
+    "static/js/2.a78c84a5.chunk.js": "/My-Portfolio/static/js/2.a78c84a5.chunk.js",
+    "static/js/2.a78c84a5.chunk.js.map": "/My-Portfolio/static/js/2.a78c84a5.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "static/css/main.f8ceafe6.chunk.css.map": "/My-Portfolio/static/css/main.f8ceafe6.chunk.css.map",
-    "static/js/2.72665ae0.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.72665ae0.chunk.js.LICENSE.txt",
+    "static/css/main.23efc48d.chunk.css.map": "/My-Portfolio/static/css/main.23efc48d.chunk.css.map",
+    "static/js/2.a78c84a5.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.a78c84a5.chunk.js.LICENSE.txt",
     "static/media/CheckOut.1140174a.png": "/My-Portfolio/static/media/CheckOut.1140174a.png",
     "static/media/EdieHomepage.dc768711.png": "/My-Portfolio/static/media/EdieHomepage.dc768711.png",
     "static/media/FDAX.17567bf0.png": "/My-Portfolio/static/media/FDAX.17567bf0.png",
@@ -20,6 +20,7 @@
     "static/media/Ordi.15e50468.png": "/My-Portfolio/static/media/Ordi.15e50468.png",
     "static/media/Portfolio.cad7a791.png": "/My-Portfolio/static/media/Portfolio.cad7a791.png",
     "static/media/Recipe.dea46f3f.png": "/My-Portfolio/static/media/Recipe.dea46f3f.png",
+    "static/media/ReusableComponents.8747f205.png": "/My-Portfolio/static/media/ReusableComponents.8747f205.png",
     "static/media/Social.4ef56195.png": "/My-Portfolio/static/media/Social.4ef56195.png",
     "static/media/chess.32fe7e75.png": "/My-Portfolio/static/media/chess.32fe7e75.png",
     "static/media/climbing.7f9e28a2.png": "/My-Portfolio/static/media/climbing.7f9e28a2.png",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.45f5b5da.js",
-    "static/js/2.72665ae0.chunk.js",
-    "static/css/main.f8ceafe6.chunk.css",
-    "static/js/main.e7ef2c35.chunk.js"
+    "static/js/2.a78c84a5.chunk.js",
+    "static/css/main.23efc48d.chunk.css",
+    "static/js/main.c93a39ac.chunk.js"
   ]
 }
