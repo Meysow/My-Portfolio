@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.23efc48d.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.c93a39ac.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.c93a39ac.chunk.js.map",
+    "main.js": "/My-Portfolio/static/js/main.c6c596d2.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.c6c596d2.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.45f5b5da.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.45f5b5da.js.map",
     "static/js/2.a78c84a5.chunk.js": "/My-Portfolio/static/js/2.a78c84a5.chunk.js",
@@ -22,6 +22,7 @@
     "static/media/Recipe.dea46f3f.png": "/My-Portfolio/static/media/Recipe.dea46f3f.png",
     "static/media/ReusableComponents.8747f205.png": "/My-Portfolio/static/media/ReusableComponents.8747f205.png",
     "static/media/Social.4ef56195.png": "/My-Portfolio/static/media/Social.4ef56195.png",
+    "static/media/WindBnB.abaabb38.png": "/My-Portfolio/static/media/WindBnB.abaabb38.png",
     "static/media/chess.32fe7e75.png": "/My-Portfolio/static/media/chess.32fe7e75.png",
     "static/media/climbing.7f9e28a2.png": "/My-Portfolio/static/media/climbing.7f9e28a2.png",
     "static/media/notFound.8223acc5.jpg": "/My-Portfolio/static/media/notFound.8223acc5.jpg",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.45f5b5da.js",
     "static/js/2.a78c84a5.chunk.js",
     "static/css/main.23efc48d.chunk.css",
-    "static/js/main.c93a39ac.chunk.js"
+    "static/js/main.c6c596d2.chunk.js"
   ]
 }
