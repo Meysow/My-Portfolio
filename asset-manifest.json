@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.23efc48d.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.661990ac.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.661990ac.chunk.js.map",
+    "main.js": "/My-Portfolio/static/js/main.0406175f.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.0406175f.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.45f5b5da.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.45f5b5da.js.map",
     "static/js/2.a78c84a5.chunk.js": "/My-Portfolio/static/js/2.a78c84a5.chunk.js",
@@ -10,13 +10,16 @@
     "index.html": "/My-Portfolio/index.html",
     "static/css/main.23efc48d.chunk.css.map": "/My-Portfolio/static/css/main.23efc48d.chunk.css.map",
     "static/js/2.a78c84a5.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.a78c84a5.chunk.js.LICENSE.txt",
+    "static/media/Amazona.92023a37.png": "/My-Portfolio/static/media/Amazona.92023a37.png",
     "static/media/CheckOut.1140174a.png": "/My-Portfolio/static/media/CheckOut.1140174a.png",
     "static/media/CountryQuiz.b6fbe9d8.png": "/My-Portfolio/static/media/CountryQuiz.b6fbe9d8.png",
     "static/media/EdieHomepage.dc768711.png": "/My-Portfolio/static/media/EdieHomepage.dc768711.png",
     "static/media/FDAX.17567bf0.png": "/My-Portfolio/static/media/FDAX.17567bf0.png",
     "static/media/Gallery.e1211c26.png": "/My-Portfolio/static/media/Gallery.e1211c26.png",
+    "static/media/InfoCrypto.2e309546.png": "/My-Portfolio/static/media/InfoCrypto.2e309546.png",
     "static/media/InteriorConsultant.3ad1d986.png": "/My-Portfolio/static/media/InteriorConsultant.3ad1d986.png",
     "static/media/Lmj.3a173e22.png": "/My-Portfolio/static/media/Lmj.3a173e22.png",
+    "static/media/Medium.01f0c2ac.png": "/My-Portfolio/static/media/Medium.01f0c2ac.png",
     "static/media/MyTeam.b5545951.png": "/My-Portfolio/static/media/MyTeam.b5545951.png",
     "static/media/Ordi.15e50468.png": "/My-Portfolio/static/media/Ordi.15e50468.png",
     "static/media/Portfolio.cad7a791.png": "/My-Portfolio/static/media/Portfolio.cad7a791.png",
@@ -37,6 +40,6 @@
     "static/js/runtime-main.45f5b5da.js",
     "static/js/2.a78c84a5.chunk.js",
     "static/css/main.23efc48d.chunk.css",
-    "static/js/main.661990ac.chunk.js"
+    "static/js/main.0406175f.chunk.js"
   ]
 }
