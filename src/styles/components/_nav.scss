@@ -5,9 +5,11 @@
   position: absolute;
   top: 1rem;
   padding: 0 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
 
   .btnNav {
-    margin-left: auto;
     width: 130px;
     height: 40px;
     border: 1px solid #333;
@@ -68,6 +70,44 @@
     &:hover {
       background: #fff;
       box-shadow: $shadow;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigation {
+    .btnNav {
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -o-transform: scale(0.9);
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navigation {
+    gap: 2rem;
+    .btnNav {
+      transform: scale(0.8);
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      -o-transform: scale(0.8);
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .navigation {
+    gap: 1rem;
+    .btnNav {
+      transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      -o-transform: scale(0.7);
     }
   }
 }

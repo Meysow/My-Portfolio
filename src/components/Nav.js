@@ -1,14 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Nav = (props) => {
+const Nav = ({ children, chemin }) => {
   return (
-    <div className="navigation">
-      <div className="btnNav">
-        <NavLink exact to={`${props.chemin}`}>
-          <span>{props.children}</span>
-        </NavLink>
-      </div>
+    <div className="btnNav">
+      <NavLink exact to={`${chemin}`}>
+        <span>{children}</span>
+      </NavLink>
     </div>
   );
 };

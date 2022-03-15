@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import notFound from "../assets/notFound/notFound.jpg";
 
 const NotFound = () => {
-  var sectionStyle = {
+  const sectionStyle = {
     width: "100%",
     backgroundImage: `url(${notFound})`,
     backgroundRepeat: "no-repeat",

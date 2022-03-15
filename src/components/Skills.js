@@ -7,8 +7,8 @@ const Skills = () => {
   const breakpoint = 1130;
 
   const languages = [
-    { id: 1, value: "React", xp: 7 },
-    { id: 2, value: "Javascript", xp: 8 },
+    { id: 1, value: "React", xp: 8 },
+    { id: 2, value: "Javascript", xp: 9 },
     { id: 3, value: "CSS", xp: 10 },
     { id: 5, value: "SASS", xp: 6 },
     { id: 4, value: "MaterialUI", xp: 4 },

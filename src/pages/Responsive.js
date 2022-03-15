@@ -9,12 +9,22 @@ const Responsive = () => {
 
   return width <= breakpoint ? (
     <>
-      <Nav chemin={"/contacts"}>Contact Me</Nav>
+      <div className="navigation">
+        <Nav chemin={"/random"} addClass={"notFoundNav"}>
+          404
+        </Nav>
+        <Nav chemin={"/contacts"} addClass={"contactNav"}>
+          Contact Me
+        </Nav>
+      </div>
       <SmallLayout />
     </>
   ) : (
     <div className="superWrapper">
-      <Nav chemin={"/contacts"}>Contact Me</Nav>
+      <div className="navigation">
+        <Nav chemin={"/random"}>404</Nav>
+        <Nav chemin={"/contacts"}>Contact Me</Nav>
+      </div>
       <Layout />
     </div>
   );
