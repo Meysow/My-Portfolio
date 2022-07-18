@@ -1,0 +1,13 @@
+// 'rounded-xl flex flex-col justify-center bg-white dark:bg-[#1D2226] w-full max-w-lg md:-mt-96 mx-6'
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+  color: blue;
+  font-size: 50px;
+  width: 100vw;
+  height: 50vh;
+  z-index: 99999999999999;
+}
