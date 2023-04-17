@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">My Reusable Components</h1>
+<h1 align="center">My-Portfolio</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://meysow.github.io/My-Reusable-Components/">
+    <a href="https://meysow.github.io/My-Portfolio/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/zQhShIcli6fCa9ghapXL">
+    <a href="https://devchallenges.io/solutions/N66sBxTbUgf1uP5GRrly">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+    <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
       Challenge
     </a>
   </h3>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://meysow.github.io/DEVCHALLENGES/Edie-Homepage/img/ReusableComponents.png)
+![screenshot](https://meysow.github.io/DEVCHALLENGES/Edie-Homepage/img/Portfolio.png)
 
 ### Built With
 
@@ -45,19 +45,22 @@
 - [React](https://reactjs.org/)
 - [JAVASCRIPT](https://www.w3schools.com/js/)
 - [SASS](https://sass-lang.com/)
+- [MUI](https://mui.com/)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories.
 
 It contains:
 
 - Reusable Components.
-- Hooks.
+- Multiple Hooks.
+- Pagination and filter System.
 - Router DOM system.
-- Input handler.
+- LightBox functionality.
+- Form handler capable of sending message to my mailbox.
 
 ## Contact
 
